@@ -1,0 +1,116 @@
+/* Reset de margin e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fce4ec; /* Cor de fundo rosa claro */
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #e91e63; /* Rosa vibrante */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f8bbd0; /* Rosa mais claro */
+}
+
+/* Estilo da seção Hero */
+.hero {
+    background-color: #f8bbd0; /* Rosa claro */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    color: #e91e63; /* Rosa mais forte */
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #e91e63;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #d81b60; /* Cor mais escura no hover */
+}
+
+/* Estilo da seção sobre */
+.sobre {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #fce4ec; /* Fundo rosa claro */
+}
+
+.sobre h2 {
+    font-size: 28px;
+    color: #e91e63;
+    margin-bottom: 20px;
+}
+
+.sobre p {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #e91e63;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+}
+
+footer p {
+    font-size: 16px;
+}
